@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Missão Átomo</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="particulas"></div>
+
+<div class="container">
+
+    <h1>⚛️ MISSÃO ÁTOMO ⚛️</h1>
+
+    <p class="subtitulo">
+        Descubra os segredos do mundo microscópico!
+    </p>
+
+    <button onclick="iniciarJogo()">
+        ▶ Começar
+    </button>
+
+    <div id="hud">
+
+        <span id="vidas">❤️❤️❤️</span>
+
+        <span id="tempo">20s</span>
+
+        <span id="score">⭐ 0</span>
+
+    </div>
+
+    <div id="quiz" class="oculto">
+
+        <h2 id="pergunta"></h2>
+
+        <div id="respostas"></div>
+
+    </div>
+
+    <div id="final" class="oculto">
+
+        <h1>Fim de Missão!</h1>
+
+        <p id="resultado"></p>
+
+        <button onclick="reiniciar()">
+            Jogar Novamente
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+
+Criado por <strong>Pedro J.</strong>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
